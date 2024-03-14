@@ -1,30 +1,48 @@
-# [JSL02] Submission: Debug the DOM
+# Fitness Tracker 🏋🏾🏋🏻‍♂️🏋🏽‍♀️
 
-You will: 
-1. Use the Starter Code Repo.
-2. Code your solution.
-3. Commit changes to your repo
-3. Submit GitHub Repo Link to LMS [JSL02] Submission Project Tab
+## Description
 
-# Debugging Duplicate Goals
+This project is a Fitness Tracker web application aimed at helping users track their workouts, fitness goals, water intake, meal plans, and visualize their weekly progress. It is developed using HTML, CSS, and JavaScript.
 
-**Debugging Brief:**
-In the current code, users can add the same fitness goal multiple times, leading to duplicate entries in the goal list. To enhance the user experience and prevent duplicates, you need to implement a check to ensure that the same goal cannot be added more than once. If a duplicate goal is detected, it should NOT be added to the list.
+## Features
 
-![alt text](JSL02_Solution.png)
+1. **Introduction to the DOM**
+    : Welcomes users to the Fitness Tracker.
+2. **Selecting and Manipulating Elements**
+    : Allows users to add workouts and display them in a list.
+3. **Creating and Removing Elements**
+    : Enables users to set fitness goals and display them in a list.
+4. **Event Handling**
+    : Tracks water intake with buttons to increase or decrease intake.
+5. **Advanced DOM Manipulation**
+    : Displays mockup weekly progress charts for workouts and calorie intake.
+6. **CSS Manipulation via JavaScript**
+    : Offers a theme toggle button to switch between light and dark themes.
+7. **Handling Forms and User Input**
+    : Allows users to submit their weekly meal plan.
+8. **Debugging the DOM**
+    : Provides no additional HTML, focusing on debugging in JavaScript.
 
-**Issue:** Users can add duplicate fitness goals.
-**Debugging Task:** Prevent users from adding the same goal more than once.
+## File Structure
 
-- The goal is to prevent users from adding duplicate fitness goals to the list.
-- You need to check if the goal being added already exists in the list before appending it.
-- Display an alert to inform the user if they are trying to add a duplicate goal.
-- Focus on the code structure within the function and how to handle duplicates.
+- `index.html`: Main HTML file containing the structure and elements of the Fitness Tracker.
+- `index.css`: CSS file for styling the HTML elements.
+- `index.js`: JavaScript file for implementing dynamic functionality and interactivity.
 
-**Explanation:**
-1. We first retrieve all the existing goals in the `goalList` using `querySelectorAll`.
-2. Then, we iterate through each existing goal and compare its text content with the new goal input.
-3. If a duplicate is found, we display an alert message and exit the function using `return` to prevent the duplicate goal from being added.
-4. If no duplicate is found, we proceed to create and add the new goal as before.
+## How to Use
 
-Check out the practice challenges on Scrimba here: https://scrimba.com/playlist/pwVxGLDUW
+1. Clone or download the repository to your local machine.
+2. Open `index.html` in a web browser.
+3. Start using the Fitness Tracker by adding workouts, setting goals, tracking water intake, and submitting your weekly meal plan.
+
+## Compatibility
+
+The Fitness Tracker web application is compatible with modern web browsers that support HTML5, CSS3, and JavaScript.
+
+## Credits
+
+This project was created by [Boikhutso].
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
