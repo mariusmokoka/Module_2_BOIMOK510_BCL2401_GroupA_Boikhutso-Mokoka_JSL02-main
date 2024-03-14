@@ -1,8 +1,8 @@
 # [JSL02] Submission: Debug the DOM
 
 You will: 
-1. Use the Starter Code Repo, 
-2. Code your solution,
+1. Use the Starter Code Repo.
+2. Code your solution.
 3. Commit changes to your repo
 3. Submit GitHub Repo Link to LMS [JSL02] Submission Project Tab
 
